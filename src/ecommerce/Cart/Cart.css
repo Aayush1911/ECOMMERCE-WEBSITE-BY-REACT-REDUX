@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    box-shadow: 2px 2px 2px 2px gainsboro;
+    height: 40vh;
+    padding: 8px 20px;
+    justify-content: center;
+    margin: 10px 200px;
+}
+.cart-image{
+    width: 20%;
+    /* display: flex; */
+    /* justify-content: left; */
+    position: absolute;
+    left: 220px;
+    height: 35vh;
+}
+.cart-title{
+   position: relative;
+   top: 25px; 
+   left: 100px;
+}
+.delete-logo{
+    position: absolute;
+    right: 250px;
+}
+.deletebtn{
+    font-size: 30px;
+    text-decoration: none;
+    color: red;
+    background-color: white;
+}
+.cart-info{
+    
+}
+.cart-quantity{
+    position: relative;
+    top: 65px; 
+    left: 100px;
+}
+.cart-price{
+    position: relative;
+    top: 140px; 
+    left: 100px;
+}
+.totalprice{
+    margin: 20px 0px;
+}
+.paybtn{
+    margin: 30px 0px;
+    width: 150px;
+    color: blue;
+    background-color: bisque;
+    height: 50px;
+    font-weight: bolder;
+}
