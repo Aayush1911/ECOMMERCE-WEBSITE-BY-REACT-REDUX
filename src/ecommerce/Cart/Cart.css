@@ -33,6 +33,7 @@
     text-decoration: none;
     color: red;
     background-color: white;
+    border: none;
 }
 .cart-info{
     
@@ -41,20 +42,42 @@
     position: relative;
     top: 65px; 
     left: 100px;
+    
 }
 .cart-price{
     position: relative;
-    top: 140px; 
+    top: 110px; 
     left: 100px;
+    color: red;
+    font-weight: bold;
+    margin: 10px 0;
+    
 }
 .totalprice{
-    margin: 20px 0px;
+    margin: 40px 0px;
 }
 .paybtn{
-    margin: 30px 0px;
+    margin: 20px 0px;
     width: 150px;
-    color: blue;
-    background-color: bisque;
+    border-radius: 25px;
+    background-color: rgb(248, 136, 136);
     height: 50px;
     font-weight: bolder;
+}
+.button{
+    padding: 20px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgb(248, 136, 136);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+    
+}
+.cartinfo{
+    position: relative;
+    top: 60px;
+    left: 90px;
 }

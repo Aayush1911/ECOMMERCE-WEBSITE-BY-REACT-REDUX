@@ -9,6 +9,10 @@ function Cart() {
   
   const products = useSelector((state) => state.productslice.products);
 
+  function clearcart(){
+
+    cartItems.clear()
+  }
   const calculateTotalPrice = () => {
     let totalPrice = 0;
     cartItems.forEach((cartItem) => {
@@ -59,6 +63,7 @@ function Cart() {
         Pay Now
       </button>
       </div>
+      
       )}
     </div>
   );
